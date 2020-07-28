@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  margin-top: 48px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.row {
+  margin-top: 48px;
+}
+
+.btn {
+  width: 100%;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.pheading {
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+  margin-bottom: 24px;
+  margin-top: 48px;
+}
+.pline {
+  font-size: 14px;
+  line-height: 20px;
+  color: #808080;
+  margin-bottom: 0px;
+}
+.pspecial {
+  display: inline-block;
+}
+.plink {
+  font-size: 14px;
+  line-height: 20px;
+  color: #006ef0;
+}
+
+.col-xs-6 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3c3c3c;
+}
+input {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.link-div {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.divspecial {
+  margin-bottom: 50px;
+}
+.divspecial_end {
+  margin-bottom: 12px;
+}
+.fa.fa-chevron-left {
+  color: #006ef0;
+  float: left;
+}
+.buttonText {
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+}
+.linkdivspecial {
+  border-style: solid;
+  border-color: #006ef0;
+  height: 100%;
+}
+
+.linkbutton {
+  margin-top: 48px;
 }
