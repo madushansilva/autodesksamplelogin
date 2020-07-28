@@ -30,9 +30,10 @@ class App extends Component {
           ></Route>
           <Route path="/register" component={RegisterForm}></Route>
           <Route
-            path="/"
+            path="/login"
             render={(props) => <Login {...props} user={user} />}
           ></Route>
+          <Redirect from="/" to="/login" />
         </Switch>
       </React.Fragment>
     );

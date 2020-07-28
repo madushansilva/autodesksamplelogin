@@ -26,7 +26,7 @@ class Password extends Form {
       toast.success('Successfull');
       setTimeout(
         function () {
-          this.props.history.replace('/');
+          this.props.history.replace('/login');
         }.bind(this),
         5000
       );
@@ -34,7 +34,7 @@ class Password extends Form {
   };
   doRedirect = () => {
     console.log('Redirect');
-    this.props.history.replace('/');
+    this.props.history.replace('/login');
   };
 
   render() {

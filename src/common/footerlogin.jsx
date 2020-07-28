@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-const Footer = () => {
+const FooterLogin = () => {
   return (
     <div>
       <div className="link-div divspecial">
         <p className="pline pspecial ">Already have an account?</p>
-        <Link className="plink" to={'/'}>
+        <Link className="plink" to={'/login'}>
           Sign in
         </Link>
       </div>
@@ -20,4 +20,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterLogin;
