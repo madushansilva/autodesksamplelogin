@@ -93,7 +93,7 @@ class RegisterForm extends Form {
             <p className="pheading">Create account</p>
 
             <form onSubmit={this.hanleSubmit}>
-              <div className="row">
+              <div className="row divmar">
                 <div className="col-8 col-sm-6">
                   {this.renderInput('firstname', ' First Name')}
                 </div>
