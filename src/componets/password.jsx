@@ -26,7 +26,7 @@ class Password extends Form {
       toast.success('Successfull');
       setTimeout(
         function () {
-          this.props.history.replace('/login');
+          this.props.history.replace('/');
         }.bind(this),
         5000
       );

@@ -5,7 +5,7 @@ const FooterLogin = () => {
     <div>
       <div className="link-div divspecial">
         <p className="pline pspecial ">Already have an account?</p>
-        <Link className="plink" to={'/login'}>
+        <Link className="plink" to={'/'}>
           Sign in
         </Link>
       </div>
