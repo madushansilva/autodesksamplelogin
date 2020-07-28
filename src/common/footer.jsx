@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="link-div divspecial_end ">
         <p className="pline">Your account for everything</p>
 
-        <Link className="plink " to={'/'}>
+        <Link className="plink " to={''}>
           Learn more
         </Link>
       </div>
