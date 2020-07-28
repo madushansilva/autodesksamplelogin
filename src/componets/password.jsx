@@ -23,7 +23,7 @@ class Password extends Form {
       errors.password = 'The Password is Incorrect';
       this.setState({ errors });
     } else {
-      toast.success('Successfull');
+      toast.success('Successfully login');
       setTimeout(
         function () {
           this.props.history.replace('/');
