@@ -91,24 +91,25 @@ class RegisterForm extends Form {
           <div className="col-xs-6 col-md-4"></div>
           <div className="col-xs-6 col-md-4 linkdivspecial">
             <p className="pheading">Create account</p>
-
-            <form onSubmit={this.hanleSubmit}>
-              <div className="col-8 col-sm-6">
-                {this.renderInput('firstname', ' First Name')}
-              </div>
-              <div className="col-4 col-sm-6">
-                {this.renderInput('lastname', ' Last Name')}
-              </div>
-
-              {this.renderInput('username', ' User Name')}
-              {this.renderInput('reusername', 'Re-type User Name')}
-              {this.renderInput('password', ' Password', 'password')}
-              {this.renderInput('repassword', 'Re-type Password', 'password')}
-
-              {this.renderButton('Login')}
-            </form>
-            <FooterLogin />
           </div>
+
+          <form onSubmit={this.hanleSubmit}>
+            <div className="col-8 col-sm-6">
+              {this.renderInput('firstname', ' First Name')}
+            </div>
+            <div className="col-4 col-sm-6">
+              {this.renderInput('lastname', ' Last Name')}
+            </div>
+
+            {this.renderInput('username', ' User Name')}
+            {this.renderInput('reusername', 'Re-type User Name')}
+            {this.renderInput('password', ' Password', 'password')}
+            {this.renderInput('repassword', 'Re-type Password', 'password')}
+
+            {this.renderButton('Login')}
+          </form>
+          <FooterLogin />
+
           <div className="col-xs-6 col-md-4"></div>
         </div>
       </div>
