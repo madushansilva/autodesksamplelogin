@@ -96,7 +96,7 @@ class RegisterForm extends Form {
               <div className="col-8 col-sm-6">
                 {this.renderInput('firstname', ' First Name')}
               </div>
-              <div className="col-8 col-sm-6">
+              <div className="col-4 col-sm-6">
                 {this.renderInput('lastname', ' Last Name')}
               </div>
 
