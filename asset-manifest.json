@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/autodesksamplelogin/static/css/main.7d11c1f4.chunk.css",
+    "main.js": "/autodesksamplelogin/static/js/main.dd1a3fd6.chunk.js",
+    "main.js.map": "/autodesksamplelogin/static/js/main.dd1a3fd6.chunk.js.map",
+    "runtime-main.js": "/autodesksamplelogin/static/js/runtime-main.dc0cdc13.js",
+    "runtime-main.js.map": "/autodesksamplelogin/static/js/runtime-main.dc0cdc13.js.map",
+    "static/css/2.355927c3.chunk.css": "/autodesksamplelogin/static/css/2.355927c3.chunk.css",
+    "static/js/2.caeeb6ec.chunk.js": "/autodesksamplelogin/static/js/2.caeeb6ec.chunk.js",
+    "static/js/2.caeeb6ec.chunk.js.map": "/autodesksamplelogin/static/js/2.caeeb6ec.chunk.js.map",
+    "index.html": "/autodesksamplelogin/index.html",
+    "precache-manifest.07dbf23b271738312dd7bc55df1729c0.js": "/autodesksamplelogin/precache-manifest.07dbf23b271738312dd7bc55df1729c0.js",
+    "service-worker.js": "/autodesksamplelogin/service-worker.js",
+    "static/css/2.355927c3.chunk.css.map": "/autodesksamplelogin/static/css/2.355927c3.chunk.css.map",
+    "static/css/main.7d11c1f4.chunk.css.map": "/autodesksamplelogin/static/css/main.7d11c1f4.chunk.css.map",
+    "static/js/2.caeeb6ec.chunk.js.LICENSE.txt": "/autodesksamplelogin/static/js/2.caeeb6ec.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/autodesksamplelogin/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc0cdc13.js",
+    "static/css/2.355927c3.chunk.css",
+    "static/js/2.caeeb6ec.chunk.js",
+    "static/css/main.7d11c1f4.chunk.css",
+    "static/js/main.dd1a3fd6.chunk.js"
+  ]
+}
